@@ -1,3 +1,8 @@
+React web app that takes in song name and/or artist name.
+  * Puts info into JSON format.
+  * Uses JSON to search Spotify API (and future other APIs) for song/artist.
+  * Displays song name, artist name, description, URL for song in Spotify (other streaming services in future), possibly album thumbnail, too.
+
 Okta Android authentication sample file:  https://github.com/okta-samples/okta-android-kotlin-sample
 Our Okta domain:  https://dev-65952082.okta.com
 
