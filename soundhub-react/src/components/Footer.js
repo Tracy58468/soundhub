@@ -8,7 +8,9 @@ export default function Footer(){
             <div>
           
                <footer className="footer">
-                 SoundHub &copy; 2023. Our Team:
+                 SoundHub &copy; 2023.
+                 
+                 Our Team:
                
                 <ul>
                     <li>Sai Kumar Cherku</li>
