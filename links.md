@@ -15,3 +15,5 @@ YouTube Music API:
   https://pypi.org/project/ytmusicapi/
 
 Idagio API:  https://github.com/IDAGIO
+
+https://rapidapi.com/blog/top-free-music-data-apis/

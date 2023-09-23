@@ -1,0 +1,47 @@
+h1{
+    padding: 0px;
+    text-align: center;
+   
+    color: cornsilk;
+    font-size: 60px;
+    
+}
+h3,h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: paleturquoise;
+    font-style: italic;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/back_origin_pic/00/02/73/18c40a3680cf85b282c732751019d886.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    border: 1;
+}
+.footer {
+    background-color: cornsilk;
+    color:rgb(7, 23, 146);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display:flexbox;
+    padding-bottom: 1px;
+    height: 150px;
+    font-size: x-large;
+   text-align: center; 
+   justify-content: left;
+   object-fit: contain;
+   font-size: small;
+   font-weight: bold;
+  }
+  ul {
+    list-style-type: none;
+  }
