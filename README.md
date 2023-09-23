@@ -14,7 +14,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 ## Who's on your team?
 *List the full names,  email address & Github username of your teammates*
 
-1.   **Full Name**  || **fullname@company.com**  (or fullname@school.edu if you're a CS student) || **Github Username**
+1.   **Full Name**  || **fullname@company.com**  (or fullname@school.edu if you're a CS student) || **Github Username*
 2.   Gustavo Gamboa || gustavo.gamboa96@gmail.com || Gustavogambog96
 3.   Sneha Chitre || sneha.chitre.usa@gmail.com || snehachitre
 4.   Saikumar Cherku || sxc24750@gmail.com || SAIKUMARCHERKU
