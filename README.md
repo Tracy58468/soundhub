@@ -16,7 +16,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 
 1.   **Gustavo Gamboa** || **gustavo.gamboa96@gmail.com** || **Gustavogambog96**
 2.   **Sneha Chitre** || **sneha.chitre.usa@gmail.com** || **snehachitre**
-3.   **Drek Norton** || **d504n925@ku.edu** || **Platnumrcn14**
+3.   **Derek Norton** || **d504n925@ku.edu** || **Platnumrcn14**
 4.   **Saikumar Cherku** || **sxc24750@ucmo.com** || **SAIKUMARCHERKU**
 5.   **Tracy Hockenhull** || **bjwlarke@duck.com** || **Tracy58468**
 
