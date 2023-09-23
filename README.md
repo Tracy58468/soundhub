@@ -4,7 +4,7 @@
 
 ## Getting Started
 Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
-1. Fork this repository and rename to the name of your app or idea
+1. Clone this repository and rename to the name of your app or idea
 2. Make it **private**
 3. Add pr@kcitp.com as a user
 4. Populate the Team, App & Challenges info below and update as needed
