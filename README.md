@@ -15,19 +15,20 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 *List the full names,  email address & Github username of your teammates*
 
 1.   **Full Name**  || **fullname@company.com**  (or fullname@school.edu if you're a CS student) || **Github Username**
-2. 
-3.
-4.
-5.
+2.   Gustavo Ganbog || gustavo.gamboa96@gmail.com || Gustavogambog96
+3.   Sneha Chitre || sneha.chitre.usa@gmail.com || snehachitre
+4.   Saikumar Cherku || sxc24750@gmail.com || SAIKUMARCHERKU
+5.   
+
 
 <br /><br />
 
 
 ## What is the name of your App?
-
+Soundhub
 <br /><br />
 ## What does your app do?
-*Describe in a paragraph or so*
+*Describe in a paragraph*
 
 <br /><br />
 
