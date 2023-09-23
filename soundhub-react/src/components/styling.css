@@ -2,14 +2,21 @@ h1{
     padding: 0px;
     text-align: center;
    
-    color: cornsilk;
-    font-size: 60px;
-    
+    color: rgb(187, 187, 187);
+    /* font-size: 60px;   */
 }
+
+h2{
+    padding: 0px;
+    text-align: center;
+   
+    color: rgb(187, 187, 187);  
+}
+
 h3,h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: paleturquoise;
+    color: rgb(187, 187, 187);
     font-style: italic;
 }
 
@@ -18,34 +25,41 @@ body {
     background-size: cover;
     background-repeat: no-repeat; */
     
-    
 }
+
 table{
     font-family: 'Times New Roman', Times, serif;
     color: wheat;
     border: 1;
 }
+
 .footer {
     background-color: cornsilk;
     color:rgb(7, 23, 146);
     position: fixed;
     left: 0;
     bottom: 0;
+    max-height: 50px;
     width: 100%;
     display:flexbox;
     padding-bottom: 1px;
     height: 150px;
     font-size: x-large;
-   text-align: center; 
-   justify-content: left;
-   object-fit: contain;
-   font-size: small;
-   font-weight: bold;
+    text-align: center;
+    justify-content: left;
+    object-fit: contain;
+    font-size: small;
+    font-weight: bold;
   }
+
   ul {
     list-style-type: none;
   }
 
   .bannerimg {
     height: 300px;
+  }
+
+  .banner {
+    background-color: rgb(3, 3, 70);
   }
