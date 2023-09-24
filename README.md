@@ -24,10 +24,12 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 
 
 ## What is the name of your App?
-**Soundhub**
+**SoundHub**
 <br /><br />
 ## What does your app do?
-*It's a workflow to automate getting song links from all the major music streaming platforms and sharing the correct one. Additionally, there will be a link with all the links that can be shared as well for accessing through the web.*
+Originally, it was to be a workflow to automate getting song links from all the major music streaming platforms and sharing them with others.
+
+The originator of the idea (and also our Android developer) had a personal issue that required that he leave the team. The rest of the team decided to focus on creating a web app, instead of an Android app plus a web app.
 
 <br /><br />
 
@@ -37,7 +39,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 - [ ]  Pinata Web3 Challenge
 - [ ]  Pinata Challenge
 - [ ]  Pinata ERC-6551 Challenge
-- [✓]  Okta Challenge
+- [ ]  Okta Challenge
 - [ ]  GEHA Generative AI Emergency Response Challenge
 - [ ]  Corporate Challenge (only for official company teams)
 - [ ]  College Challenge (only for teams of up to 5 CS students from the same school)
