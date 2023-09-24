@@ -10,12 +10,12 @@ function SearchSong() {
         <input className='textbox'
             type="text"
             id="song-search"
-            placeholder="Search a song"
+            placeholder="Search for a song"
             name="searchbar" 
             onChange={(e) => {
               setSongName(e.target.value);}}
         />
-        <button className ='button' type="submit">Search</button>
+        <button type="submit">Search</button>
     </form>
   )
 }

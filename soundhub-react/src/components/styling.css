@@ -78,39 +78,17 @@ ul {
   border: 1px solid blue;
 }
 
-.button {
-  background-color: #ffe54c;
-  border: 1px solid black;
-  padding: 1px 10px;
-  /* margin: 4 px 2 px; */
+button {
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 200;
-  height: 2.4rem;
-  letter-spacing: 1px;  
-  outline: 0;
-  position: absolute;
-  user-select: none;
-  /* -webkit-user-select: none; */
-  /* touch-action: manipulation; */
+  background-color: rgb(90, 90, 252);
+  box-sizing: border-box;
+  font: 400 16px system-ui;
+  padding: 5px 10px 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(90, 90, 252);
+  border-radius: 10%;
 }
-
-/* .button:after {
-  content: "";
-  background-color: #ffe54c;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 2rem;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-} */
-
-/* .button:hover:after {
-  top: 0px;
-  left: 0px;
-} */
 
 @media (min-width: 768px) {
   .button {
@@ -122,9 +100,3 @@ ul {
   height: 300px;
   padding-bottom: 30px;
 }
-
-.banner {
-  
-  /* background-color: rgb(3, 3, 70); */
-}
-
