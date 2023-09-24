@@ -27,9 +27,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 **SoundHub**
 <br /><br />
 ## What does your app do?
-Originally, it was to be a workflow to automate getting song links from all the major music streaming platforms and sharing them with others.
-
-The originator of the idea (and also our Android developer) had a personal issue that required that he leave the team. The rest of the team decided to focus on creating a web app, instead of an Android app plus a web app.
+Our web app asks a user for the name of a song, which is then searched on Spotify (and in the future, more streaming services) so that the user can share the link for the song to their friends without needing to know which streaming service their friends use.
 
 <br /><br />
 
