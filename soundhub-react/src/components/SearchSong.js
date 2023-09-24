@@ -45,6 +45,8 @@ useEffect(() => {
         />
         <button type="submit" onClick={handleClick}>Search</button>
         {/* {clicked ? <SongInfo songData={songData} /> :null} */}
+
+        
    </div>
   )
 }
