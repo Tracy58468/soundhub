@@ -24,10 +24,10 @@ body {
 }
 
 table{
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif;
   color: rgb(15, 15, 15);
   border: 1;
-  padding-left: 10px;
+  padding-left: 10px; */
 }
 
 tr {
@@ -102,5 +102,6 @@ button {
   padding-bottom: 30px;
 }
 .displaySong{
+ 
     color: wheat;
 }
