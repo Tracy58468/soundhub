@@ -4,7 +4,7 @@ import jsonData from './song_info.json';
 import SongInfo from './SongInfo';
 let songDetails=jsonData;
 
-let  clicked=false;
+
 // console.log(loadData);
 
 
@@ -17,7 +17,7 @@ useEffect(() => {
   const [songName, setSongName] = useState("");
   const [songData, setSongData ] = useState({});
   const[clicked,isClicked] =useState(false);
-  setSongData(songDetails);
+  // setSongData(songDetails);
 
   const handleClick = () => {
   
@@ -43,8 +43,9 @@ useEffect(() => {
               setSongName(e.target.value);
              }}
         />
-        <button type="submit">Search</button>
-    </form>
+        <button type="submit" onClick={handleClick}>Search</button>
+        {/* {clicked ? <SongInfo songData={songData} /> :null} */}
+   </div>
   )
 }
 
