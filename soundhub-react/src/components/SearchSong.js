@@ -15,7 +15,7 @@ function SearchSong() {
             onChange={(e) => {
               setSongName(e.target.value);}}
         />
-        <button className ='button' role='button' type="submit">Search</button>
+        <button className ='button' type="submit">Search</button>
     </form>
   )
 }
