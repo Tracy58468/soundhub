@@ -33,7 +33,7 @@ useEffect(() => {
 
   return (
     <div>
-        <>input className='textbox'
+        <input className='textbox'
             type="text"
             id="song-search"
             placeholder="Search for a song"
