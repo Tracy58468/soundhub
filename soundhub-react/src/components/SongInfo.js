@@ -12,21 +12,16 @@ export default function SongInfo({songData}){
     
     return(
       
-        <div className="displaySong">
+      <div className="displaySong">
             
-      
-   
-      <ul>
-        <li>{songData["name"]}</li>
-        <li>{songData.artists[0]["name"]}</li>
-        <li>{songData["album"]["name"]}</li>
-        <li>{songData.external_urls.spotify}</li>
+        <ul>
+          <li>{songData["name"]}</li>
+          <li>{songData.artists[0]["name"]}</li>
+          <li>{songData["album"]["name"]}</li>
+          <li>{songData.external_urls.spotify}</li>
         </ul>
    
-
-    </div>
-      
-       
+      </div>
        
     );
 
