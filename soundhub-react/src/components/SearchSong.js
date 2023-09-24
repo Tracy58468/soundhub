@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 
 import jsonData from './song_info.json';
 import SongInfo from './SongInfo';
+import BrythonCode from './BrythonCode';
+const Brython = require('brython');
+
 let songDetails=jsonData;
 
 // console.log(loadData);
@@ -19,7 +22,7 @@ function SearchSong() {
     isClicked(true);
     // console.log("am in searchsong");
     setSongData(songDetails);
-   
+    
   };
   
   console.log(jsonData);
@@ -36,16 +39,17 @@ function SearchSong() {
             name="searchbar" 
             onChange={(e) => {
               setSongName(e.target.value);
+              <BrythonCode songName={songName}/>
             }}
         />
 
         <button type="submit" onSubmit={() => handleSubmit}>Search</button>
-
+          console.log(songName);
       </form>
       
       {console.log(clicked)}
       
-      {clicked ? <SongInfo songData={songData} /> : null}
+      {clicked ? <SongInfo songData={songData} /> : null} 
 
     </div>
 
