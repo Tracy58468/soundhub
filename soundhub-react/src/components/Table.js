@@ -1,5 +1,5 @@
 import "./styling.css";
-import song from "./SongData";
+
 
 const Table = ({ song }) => {
   return (
