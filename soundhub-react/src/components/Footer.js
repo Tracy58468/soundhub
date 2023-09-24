@@ -8,7 +8,9 @@ export default function Footer(){
             <div>
           
                <footer className="footer">
-                 SoundHub &copy; 2023. Our Team:
+                 SoundHub &copy; 2023 Sai Kumar Cherku, Sneha Chitre, Gus Gamboa, Tracy Hockenhull, Derek Norton.
+                 
+                 {/* Our Team:
                
                 <ul>
                     <li>Sai Kumar Cherku</li>
@@ -17,10 +19,10 @@ export default function Footer(){
                     <li>Tracy Hockenhull</li>
                     <li>Derek Norton</li>
                 </ul>    
-                    at HackMidwest KC   
+                    at HackMidwest KC    */}
                </footer>
                
-            // </div>
+             </div>
 
 
     );
