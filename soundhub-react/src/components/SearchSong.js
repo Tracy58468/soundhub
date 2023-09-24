@@ -10,20 +10,18 @@ let songDetails=jsonData;
 
 function SearchSong() {
   
-useEffect(() => {
-  //Runs only on the first render
-  setSongData(songDetails);
-}, []);
+
   const [songName, setSongName] = useState("");
   const [songData, setSongData ] = useState({});
   const[clicked,isClicked] =useState(false);
   // setSongData(songDetails);
 
-  const handleClick = () => {
-  
+  const handleSubmit = (e) => {
+    e.preventDefault();
     isClicked(true);
-    
+    // console.log("am in searchsong");
     setSongData(songDetails);
+   
 
   };
   
@@ -33,6 +31,7 @@ useEffect(() => {
 
   return (
     <div>
+     <form onSubmit={handleSubmit}>
         <input className='textbox'
             type="text"
             id="song-search"
@@ -43,10 +42,11 @@ useEffect(() => {
              }}
 
         />
-        <button type="submit" onClick={handleClick}>Search</button>
-        {/* {clicked ? <SongInfo songData={songData} /> :null} */}
+        <button type="submit" onSubmit={() => handleSubmit}>Search</button>
+             </form>
+             {console.log(clicked)}
+        {clicked ? <SongInfo songData={songData} /> : null}
 
-        
    </div>
 
 
