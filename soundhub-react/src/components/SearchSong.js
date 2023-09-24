@@ -32,9 +32,8 @@ useEffect(() => {
   console.log(jsonData);
 
   return (
-        <div>
-       
-        <input className='textbox'
+    <div>
+        <>input className='textbox'
             type="text"
             id="song-search"
             placeholder="Search for a song"
@@ -42,12 +41,16 @@ useEffect(() => {
             onChange={(e) => {
               setSongName(e.target.value);
              }}
+
         />
         <button type="submit" onClick={handleClick}>Search</button>
         {/* {clicked ? <SongInfo songData={songData} /> :null} */}
 
         
    </div>
+
+
+
   )
 }
 
