@@ -8,26 +8,8 @@ export default function SongInfo({ songData }) {
     return (
 
         <div className="displaySong">
-         {songData["results"]["trackmatches"]["track"].map((data, id) => {
-        
-        return (
 
-           <div key={id}  >
-            {/* {data.artist} */}
-				{/* <td>{data.name}</td>
-				<td>{data.type}</td>
-				<td>{data.launchDate}</td> */}
-				{/* <td>{data.operational ? "active":"inactive"}</td> */}
-		</div>
-            );
-    })}
-            
-         
-            
-            
-            
-
-            {/* <table >
+            <table className = "centerTable" >
                 
             <tbody>
                     <tr>
@@ -40,7 +22,7 @@ export default function SongInfo({ songData }) {
                         <td>Album Name: </td><td>{songData["album"]["name"]}</td>
                     </tr>
                     <tr>
-                        <td>Spotify Link: </td><td>{songData.external_urls.spotify}</td>
+                        <td>Spotify Link: </td><td><a href={songData.external_urls.spotify}>{songData.external_urls.spotify}</a></td>
                     </tr>
                 
     
