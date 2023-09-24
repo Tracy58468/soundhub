@@ -21,6 +21,8 @@ h3,h4 {
 
 body {
   background-color: rgb(3, 3, 70);
+  background-image: url("../../public/images/SL.123119.26540.04.jpg");
+  background-size: cover;
 }
 
 .centerTable {

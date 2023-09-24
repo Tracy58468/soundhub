@@ -3,7 +3,7 @@ import SearchSong from "./SearchSong";
 import { useState } from "react";
 
 export default function SongInfo({ songData }) {
-    console.log("songinfo",songData);
+
 
     return (
 
@@ -27,7 +27,7 @@ export default function SongInfo({ songData }) {
                 
     
                 </tbody>
-            </table> */}
+            </table>
 
 
         </div>
