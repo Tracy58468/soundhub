@@ -1,45 +1,39 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import jsonData from './song_info.json';
+import SongInfo from './SongInfo';
 let songDetails=jsonData;
 
 let  clicked=false;
 // console.log(loadData);
-const handleClick = ({songData}) => {
-  
-  clicked=true;
- 
-  return(
-    <div className="displaySong">
-     
-    
- return (
-    <ul>
-      <li>songDetails.name</li>
-      <li>songDetails.type</li>
-      <li>songDetails.album.name</li>
-      </ul>
- )
-
-  </div>
-  );
-};
-
-  
 
 
 function SearchSong() {
   
+useEffect(() => {
+  //Runs only on the first render
+  setSongData(songDetails);
+}, []);
   const [songName, setSongName] = useState("");
-  const [songData, setSongData ] = useState();
-  // setSongData(songDetails);
+  const [songData, setSongData ] = useState({});
+  const[clicked,isClicked] =useState(false);
+  setSongData(songDetails);
+
+  const handleClick = () => {
+  
+    isClicked(true);
+    
+    setSongData(songDetails);
+
+  };
+  
 
 
   console.log(jsonData);
 
   return (
         <div>
-        
+       
         <input className='textbox'
             type="text"
             id="song-search"
@@ -50,8 +44,8 @@ function SearchSong() {
              }}
         />
        
-        <button className ='button'  type="submit" onClick={()=>{setSongData(songDetails);handleClick()}}>Search</button>
-             
+        <button className ='button'  type="submit" onClick={handleClick}>Search</button>
+             {clicked? <SongInfo songData={songData} /> :null}
     </div>
   )
 }
