@@ -1,0 +1,77 @@
+{
+    "album": {
+        "album_type": "album",
+        "artists": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt"
+                },
+                "href": "https://api.spotify.com/v1/artists/0gxyHStUsqpMadRV0Di1Qt",
+                "id": "0gxyHStUsqpMadRV0Di1Qt",
+                "name": "Rick Astley",
+                "type": "artist",
+                "uri": "spotify:artist:0gxyHStUsqpMadRV0Di1Qt"
+            }
+        ],
+        "available_markets": [],
+        "external_urls": {
+            "spotify": "https://open.spotify.com/album/6N9PS4QXF1D0OWPk0Sxtb4"
+        },
+        "href": "https://api.spotify.com/v1/albums/6N9PS4QXF1D0OWPk0Sxtb4",
+        "id": "6N9PS4QXF1D0OWPk0Sxtb4",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273255e131abc1410833be95673",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02255e131abc1410833be95673",
+                "width": 300
+            },
+            {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851255e131abc1410833be95673",
+                "width": 64
+            }
+        ],
+        "name": "Whenever You Need Somebody",
+        "release_date": "1987-11-12",
+        "release_date_precision": "day",
+        "total_tracks": 10,
+        "type": "album",
+        "uri": "spotify:album:6N9PS4QXF1D0OWPk0Sxtb4"
+    },
+    "artists": [
+        {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt"
+            },
+            "href": "https://api.spotify.com/v1/artists/0gxyHStUsqpMadRV0Di1Qt",
+            "id": "0gxyHStUsqpMadRV0Di1Qt",
+            "name": "Rick Astley",
+            "type": "artist",
+            "uri": "spotify:artist:0gxyHStUsqpMadRV0Di1Qt"
+        }
+    ],
+    "available_markets": [],
+    "disc_number": 1,
+    "duration_ms": 213573,
+    "explicit": false,
+    "external_ids": {
+        "isrc": "GBARL9300135"
+    },
+    "external_urls": {
+        "spotify": "https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4uLU6hMCjMI75M1A2tKUQC",
+    "id": "4uLU6hMCjMI75M1A2tKUQC",
+    "is_local": false,
+    "name": "Never Gonna Give You Up",
+    "popularity": 1,
+    "preview_url": null,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:4uLU6hMCjMI75M1A2tKUQC"
+}
