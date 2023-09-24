@@ -3,7 +3,8 @@ import "./styling.css";
 
 export default function Banner(){
 
-    return( 
+    return(
+
             <div className = "banner">
                 <img src = "./images/guitar-3567767_1920.jpg" alt = "guitar with notes and accidentals" className = "bannerimg"/>
                <header><h1> Welcome to SoundHub</h1></header>
@@ -11,6 +12,6 @@ export default function Banner(){
 
             </div>
 
-
     );
+    
 }

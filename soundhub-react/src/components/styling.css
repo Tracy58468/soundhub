@@ -29,8 +29,18 @@ body {
 
 table{
     font-family: 'Times New Roman', Times, serif;
-    color: wheat;
+    color: rgb(15, 15, 15);
     border: 1;
+    padding-left: 10px;
+}
+
+tr {
+  text-align: left;
+  padding-left: 10px;
+}
+
+td {
+  padding-right: 10px;
 }
 
 .footer {
