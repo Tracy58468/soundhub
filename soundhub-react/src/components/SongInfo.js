@@ -3,13 +3,31 @@ import SearchSong from "./SearchSong";
 import { useState } from "react";
 
 export default function SongInfo({ songData }) {
-
+    console.log("songinfo",songData);
 
     return (
 
         <div className="displaySong">
+         {songData["results"]["trackmatches"]["track"].map((data, id) => {
+        
+        return (
 
-            <table >
+           <div key={id}  >
+            {/* {data.artist} */}
+				{/* <td>{data.name}</td>
+				<td>{data.type}</td>
+				<td>{data.launchDate}</td> */}
+				{/* <td>{data.operational ? "active":"inactive"}</td> */}
+		</div>
+            );
+    })}
+            
+         
+            
+            
+            
+
+            {/* <table >
                 
             <tbody>
                     <tr>
@@ -27,7 +45,7 @@ export default function SongInfo({ songData }) {
                 
     
                 </tbody>
-            </table>
+            </table> */}
 
 
         </div>
