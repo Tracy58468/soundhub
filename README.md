@@ -29,6 +29,8 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 ## What does your app do?
 Our web app asks a user for the name of a song, which is then searched on Spotify (and in the future, more streaming services) so that the user can share the link for the song to their friends without needing to know which streaming service their friends use.
 
+***We were unable to finish.***
+
 <br /><br />
 
 
