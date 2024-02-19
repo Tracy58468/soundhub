@@ -17,8 +17,6 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 1.   **Sneha Chitre** || **sneha.chitre.usa@gmail.com** || **snehachitre**
 2.   **Derek Norton** || **d504n925@ku.edu** || **Platnumrcn14**
 3.   **Saikumar Cherku** || **sxc24750@ucmo.edu** || **SAIKUMARCHERKU**
-4.   **Tracy Hockenhull** || **bjwlarke@duck.com** || **Tracy58468**
-
 
 <br /><br />
 
